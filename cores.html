@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar Cor do Background</title>
+</head>
+<style>
+    #center{
+        background-color: brown;
+        width: 800px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        line-height: 800px;
+        margin-top: 4%;
+    }
+</style>
+<body>
+<div id="center">
+<button onclick="blue()">Azul</button>
+<button onclick="yellow()">Amarelo</button>
+<button onclick="green()">Verde</button>
+<button onclick="red()">Vermelho</button>
+</div>
+<script>
+    function blue(){
+        var blue = window.document.body.style.backgroundColor = 'blue'
+    }
+    function yellow(){
+        var yellow = window.document.body.style.backgroundColor = 'yellow'
+    }
+    function green(){
+        var green = window.document.body.style.backgroundColor = 'green'
+    }
+    function red(){
+        var red = window.document.body.style.backgroundColor = 'red'
+    }
+</script>
+    
+</body>
+</html>
